@@ -3,7 +3,7 @@
 (defn stairClimb
   [n]
   (if (= n 0)
-    0
+    1
     (loop [prev (bigint 1)
            curr (bigint 1)
            count 1]
