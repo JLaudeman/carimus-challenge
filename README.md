@@ -3,7 +3,7 @@ A solution for the carimus coding challenge
 
 #### Running the function
 Start a REPL with `clj` or your preferred project management tool, such as leiningen, `lein repl`  
-Then load the file with `(load-file "challenge.clj")` and switch to the namespace with `(use 'challenge.clj)`  
+Then load the file with `(load-file "challenge.clj")` and switch to the namespace with `(use 'challenge)`  
 Call the function like  
 `(stairClimb 10) => 89N`
 
